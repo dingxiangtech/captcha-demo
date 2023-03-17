@@ -28,7 +28,8 @@
     + [3.6 Node.js](#36-nodejs)
     + [3.7 Golang](#37-golang)
 
-
+验证码工作流程
+![image](https://user-images.githubusercontent.com/35217413/225861273-eb1c5670-e64e-4450-b1f0-c03cb7968d62.png)
 
 ## 1 客户端集成
 ### 1.1 web
