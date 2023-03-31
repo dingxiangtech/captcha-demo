@@ -31,6 +31,10 @@
 验证码工作流程
 ![image](https://user-images.githubusercontent.com/35217413/225861273-eb1c5670-e64e-4450-b1f0-c03cb7968d62.png)
 
+captchaUIdemo 文件夹 模拟了web端登录流程接入验证码的场景，下载该文件夹，打开index.html文件即可使用验证码，对应图中的验证码初始化和验证码验证两个阶段
+
+captchaJavaDemo 文件夹 模拟了后台业务流程接入验证码的场景，主要是进行token验证，对应业务请求携带验证码安全凭据和验证码安全凭据核验两个步骤
+
 ## 1 客户端集成
 ### 1.1 web
 
