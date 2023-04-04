@@ -21,10 +21,7 @@ function getConfigs () {
         // 验证成功时下发token， 需要传递到业务系统中做token校验
         success: function (token) {
           window.console && console.log('success t1, token:', token);
-
           var username = $('#name').val()
-          console.log(username)
-
           var password = $('#password').val()
 
           $.ajax({
