@@ -2,7 +2,7 @@ function getConfigs () {
   // 公共配置，所有验证类型option都会有以下属性。
   var baseOption = {
     isSaaS: true,
-    apiServer: 'https://cap.dingxiang-inc.com',
+    apiServer: 'https://cap.dingxiang-inc.com',  // 需要做修改。请登录顶象控制台，访问验证码的应用管理，获取页面上 apiServer 值
     constID_js: 'https://cdn.dingxiang-inc.com/ctu-group/constid-js/index.js',
     feedback: true,
     ua_js: 'https://cdn.dingxiang-inc.com/ctu-group/ctu-greenseer/greenseer.js',
@@ -17,7 +17,7 @@ function getConfigs () {
       id: 'demo0',
       option: $.extend({}, baseOption, {
         style: style,showVoice:true,
-        appId: '',           //appId，在顶象控制台应用管理或应用配置模块获取
+        appId: '',  //appId，需要做修改。请登录顶象控制台，访问验证码的应用管理或应用配置模块获取
         // 验证成功时下发token， 需要传递到业务系统中做token校验
         success: function (token) {
           window.console && console.log('success t1, token:', token);
@@ -26,7 +26,6 @@ function getConfigs () {
           console.log(username)
 
           var password = $('#password').val()
-          console.log(password)
 
           $.ajax({
             url: 'http://localhost:8080/user/login',
