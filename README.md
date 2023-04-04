@@ -62,3 +62,6 @@
 ## 3、更多集成说明
   
   其他各个语言和各个端的详细配置和接入流程可以参考顶象官网验证码用户手册：https://www.dingxiang-inc.com/docs/detail/captcha
+
+## 4、使用问题
+集成或使用中遇到问题，可以查询或提交[issues](https://github.com/dingxiangtech/captcha-demo/issues)
