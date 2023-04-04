@@ -3,14 +3,9 @@ package com.dingxianginc.captcha.demo.util;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import java.io.Serializable;
 
-/**
- * 返回给页面的对象。<br />
- * <p>
- * Created by wuling on 2017/5/16.
- */
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
