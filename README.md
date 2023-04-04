@@ -1,10 +1,9 @@
 # captcha-demo
-顶象验证码Demo
 
-## 验证码工作流程
+## 1、验证码工作流程
 ![image](https://user-images.githubusercontent.com/35217413/225861273-eb1c5670-e64e-4450-b1f0-c03cb7968d62.png)
 
-## demo运行教程
+## 2、demo运行
 
 ### captchaUIdemo
 
@@ -33,7 +32,7 @@
 
   ![image](https://user-images.githubusercontent.com/35217413/229449613-af0b8bbf-6cc2-4596-8b22-a984d584af1c.png)
   
-2. 将项目导入至IDEA中，等待IDEA把项目加载完毕，编辑CaptchaService类，修改其appId和appSecret的配置
+2. 将项目导入至IDEA中，等待IDEA把项目加载完毕，编辑CaptchaService类，修改其中appId和appSecret的值  
 
   ![image](https://user-images.githubusercontent.com/35217413/229450179-78d2986f-f41d-4220-8749-a852477c3508.png)
 
@@ -57,9 +56,9 @@
   ![image](https://user-images.githubusercontent.com/35217413/229451893-694228db-87d8-441d-a92d-857c3af173d4.png)
 
 
-注意：其中两个项目中的appid都需要修改，appid和appsecret可以通过顶象控制台的产品管理进行获取。
+注意：其中两个项目中的appid都需要做修改，appid和appsecret可以通过顶象控制台的产品管理进行获取。
 
 
-## 用户集成手册
+## 3、更多集成说明
   
   其他各个语言和各个端的详细配置和接入流程可以参考顶象官网验证码用户手册：https://www.dingxiang-inc.com/docs/detail/captcha
