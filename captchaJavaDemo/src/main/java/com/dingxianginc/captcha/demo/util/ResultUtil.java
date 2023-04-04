@@ -1,7 +1,5 @@
 package com.dingxianginc.captcha.demo.util;
 
-
-
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import org.apache.commons.lang3.StringUtils;
@@ -9,11 +7,6 @@ import org.springframework.web.util.HtmlUtils;
 
 import java.util.regex.Pattern;
 
-/**
- * 返回结果构造类
- * <p>
- * Created by wuling on 2017/5/16.
- */
 public class ResultUtil {
 
     private static final String YYYY_MM_DD_HH_MM_SS = "yyyy-MM-dd HH:mm:ss";
